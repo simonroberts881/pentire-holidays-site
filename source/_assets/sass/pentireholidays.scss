@@ -1,0 +1,15 @@
+@tailwind preflight;
+@tailwind components;
+
+@import "~bootstrap/scss/bootstrap";
+@import "slideshow";
+@import "./nucleo-icons.css";
+
+.bg-header {
+  background-image: url('../../images/top-banner-fistral.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@tailwind utilities;
