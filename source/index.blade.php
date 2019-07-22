@@ -4,35 +4,34 @@
     <div id="welcome" class="tw-w-full tw-py-4">
         <div class="tw-container tw-flex tw-flex-col">
             <div class="tw-w-full tw-flex-1"><h1 class="tw-m-0 tw-p-0 tw-py-8 tw-text-center">Luxury Holiday Accommodation</h1></div>
-            <div class="tw-w-full tw-flex-1 tw-flex">
-                <div class="tw-flex-1" style="width: 30rem;">
+            <div class="tw-w-full tw-flex-1 tw-flex tw-flex-row">
+                <div class="tw-flex-1 tw-w-full lg:tw-w-description-left">
                     <h3 class="tw-pb-4 tw-text-center">Welcome to our apartment</h3>
                     <p class="tw-text-grey-darker">A self-catering ground floor apartment, ideally located on the desirable Pentire peninsular, on the outskirts of Newquay. Just minutes from Fistral Beach and a ten minute walk from Newquay town.</p>
                     <hr>
                     <h3 class="tw-pb-4 tw-text-center">Making the most of your holiday</h3>
-                    <div class="tw-text-center tw-py-4">
-                        <a href="#findus" class="tw-bg-blue hover:tw-bg-blue-dark tw-text-white tw-font-bold tw-py-3 tw-px-4 tw-rounded-lg tw-no-underline">How To Find Us</a>
-                        <a href="#amenities" class="tw-bg-blue hover:tw-bg-blue-dark tw-text-white tw-font-bold tw-py-3 tw-px-4 tw-rounded-lg tw-no-underline">Local Amenities</a>
-                        <a href="#explore" class="tw-bg-blue hover:tw-bg-blue-dark tw-text-white tw-font-bold tw-py-3 tw-px-4 tw-rounded-lg tw-no-underline">Let's Explore</a>
+                    <div class="tw-py-4 lg:tw-px-32 tw-flex tw-flex-col">
+                        <a href="#findus" class="tw-flex-1 tw-m-2 tw-cursor-pointer tw-hidden lg:tw-block tw-text-center tw-bg-blue hover:tw-bg-blue-darkest tw-text-white tw-font-bold tw-py-3 tw-px-4 tw-rounded-lg tw-no-underline">How To Find Us</a>
+                        <a href="#amenities" class="tw-flex-1 tw-m-2 tw-cursor-pointer tw-text-center tw-bg-blue hover:tw-bg-blue-darkest tw-text-white tw-font-bold tw-py-3 tw-px-4 tw-rounded-lg tw-no-underline">Local Amenities</a>
+                        <a href="#explore" class="tw-flex-1 tw-m-2 tw-cursor-pointer tw-text-center tw-bg-blue hover:tw-bg-blue-darkest tw-text-white tw-font-bold tw-py-3 tw-px-4 tw-rounded-lg tw-no-underline">Let's Explore</a>
                     </div>
                     <hr>
                     <div class="tw-w-full tw-flex-col">
-                        <div class="tw-mx-20">
+                        <div class="md:tw-px-32 lg:tw-px-8">
                             <div class="tw-flex tw-justify-between tw-items-center">
-                                <a href="http://holiday.booking-system.net/ContactUs.asp?odta=bVQ%3DEJDJ%26PVQ%3DD&tabs=65"         class="tw-bg-orange hover:tw-bg-orange-dark tw-text-white tw-font-bold tw-py-3 tw-px-8 tw-rounded-full tw-no-underline">Contact Us</a>
+                                <a href="http://holiday.booking-system.net/ContactUs.asp?odta=bVQ%3DEJDJ%26PVQ%3DD&tabs=65" class="tw-bg-orange hover:tw-bg-orange-dark tw-text-white tw-font-bold tw-py-3 tw-px-8 tw-rounded-full tw-no-underline">Contact Us</a>
                                 <a href="http://holiday.booking-system.net/Prices.asp?odta=bVQ%3DEJDJ%26PVQ%3DHMEK&copt=64&tabs=21" class="tw-bg-orange hover:tw-bg-orange-dark tw-text-white tw-font-bold tw-py-3 tw-px-4 tw-rounded-full tw-no-underline">Book your Stay</a>
                             </div>
                             <div class="tw-w-full tw-text-center tw-pt-4">
                                 <span class="tw-font-bold">or</span>
                             </div>
                         </div>
-                        <div class="tw-mx-20 tw-text-center tw-py-4">
+                        <div class="tw-text-center tw-py-4">
                             <span class="tw-font-semibold">Call us 07856 853 899</span>
                         </div>
                     </div>
-
                 </div>
-                <div class="tw-flex-1 tw-pl-8">
+                <div class="tw-flex-1 tw-pl-8 tw-hidden lg:tw-block">
                     <div id="carouselExampleControls" class="carousel slide tw-overflow-hidden" data-ride="carousel">
                         <div class="carousel-inner tw-rounded-xl">
                             <div class="carousel-item active">
@@ -72,18 +71,17 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="details-example" class="tw-w-full tw-py-4">
+    <div id="apartment-details-example" class="tw-w-full tw-py-4">
         <div class="tw-container">
             <h3 class="pb-4 text-center">The Apartment</h3>
-            <div class="tw-flex tw-pb-8">
-                <div class="tw-w-1/3 tw-flex-1">
-                    <div class="tw-pr-4 tw-h-64">
+            <div class="tw-flex tw-flex-wrap">
+                <div class="tw-w-full lg:tw-w-1/3">
+                    <div class="tw-border-b-2 tw-mx-4 lg:tw-border-0 lg:tw-h-details">
                         <h4>Living Room</h4>
                         <p class="text-justify">Spacious, ground floor, open plan apartment fitted with underfloor heating in a luxurious living area
                             furnished to an exceptional standard with contemporary furniture for that <strong>'home away from home'</strong> feel,
@@ -93,8 +91,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="tw-w-1/3 tw-flex-1">
-                    <div class="tw-px-4 tw-h-64 tw-border-0 tw-border-l-2 tw-border-r-2">
+                <div class="tw-w-full lg:tw-w-1/3">
+                    <div class="tw-border-b-2 tw-mx-4 lg:tw-h-details lg:tw-border-0 lg:tw-border-l-2 lg:tw-border-r-2 lg:tw-px-4">
                         <h4>Hallway</h4>
                         <ul>
                             <li>Easy access and accommodation for coats and shoes</li>
@@ -102,17 +100,14 @@
                         </ul>
                     </div>
                 </div>
-                <div class="tw-w-1/3 tw-flex-1">
-                    <div class="tw-pl-4 tw-h-64">
+                <div class="tw-w-full lg:tw-w-1/3">
+                    <div class="tw-border-b-2 tw-mx-4 lg:tw-h-details lg:tw-border-0">
                         <h4>Kitchen</h4>
                         <p class="text-justify">Fully equipped bespoke kitchen with integral dishwasher, fridge/freezer, range cooker and microwave.  InsinkErator for food waste disposal.  Large larder cupboard.</p>
-
                     </div>
                 </div>
-            </div>
-            <div class="tw-flex tw-pt-8 tw-pb-4 tw-border-0 tw-border-t-2">
-                <div class="tw-w-1/3 tw-flex-1">
-                    <div class="tw-pr-4 tw-h-64">
+                <div class="tw-w-full lg:tw-w-1/3 lg:tw-mt-8 lg:tw-pt-8 lg:tw-border-t-2">
+                    <div class="tw-border-b-2 tw-mx-4 lg:tw-h-details lg:tw-border-0">
                         <h4>Bedrooms</h4>
                         <ul>
                             <li>Sleeps 4 (2 bedrooms)</li>
@@ -121,8 +116,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="tw-w-1/3 tw-flex-1">
-                    <div class="tw-px-4 tw-h-64 tw-border-0 tw-border-l-2 tw-border-r-2">
+                <div class="tw-w-full lg:tw-w-1/3 lg:tw-mt-8 lg:tw-pt-8 lg:tw-border-t-2">
+                    <div class="tw-border-b-2 tw-mx-4 lg:tw-h-details lg:tw-border-0 lg:tw-border-l-2 lg:tw-border-r-2 lg:tw-px-4">
                         <h4>Bathrooms</h4>
                         <ul>
                             <li>1 large shower room including toilet and sink</li>
@@ -130,8 +125,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="tw-w-1/3 tw-flex-1">
-                    <div class="tw-pl-4 tw-h-64">
+                <div class="tw-w-full lg:tw-w-1/3 lg:tw-mt-8 lg:tw-pt-8 lg:tw-border-t-2">
+                    <div class="tw-mx-4 lg:tw-h-details">
                         <h4>Outside</h4>
                         <ul>
                             <li>French doors leading out to large enclosed decked garden with raised bed of mature shrubs, outdoor furniture and a sea view!</li>
@@ -145,66 +140,19 @@
         </div>
     </div>
 
-    <div id="details" class="tw-hidden tw-w-full tw-py-4">
-        <div class="tw-container">
-            <h3 class="pb-4 text-center">The Apartment</h3>
-            <h4>Living Room</h4>
-            <p class="text-justify">Spacious, ground floor, open plan apartment fitted with underfloor heating in a luxurious living area
-                furnished to an exceptional standard with contemporary furniture for that 'home away from home' feel,
-                a comfortable sofa bed is available in the living room area.</p>
-
-            <h4>Kitchen</h4>
-
-            <p>Fully equipped bespoke kitchen with integral dishwasher, fridge/freezer, range cooker and microwave.  InsinkErator for food waste disposal.  Large larder cupboard.</p>
-
-            <h4>Bedrooms</h4>
-
-            <ul>
-                <li>Sleeps 4 (2 bedrooms)</li>
-                <li>Master bedroom with king-size bed ample room to accommodate a travel cot</li>
-                <li>Second bedroom with full-size single beds</li>
-            </ul>
-
-            <h4>Bathrooms</h4>
-            <ul>
-                <li>1 large shower room including toilet and sink</li>
-                <li>1 en-suite bathroom in the Master bedroom, bath, sink toilet and separate enclosed shower</li>
-            </ul>
-
-            <h4>Hallway</h4>
-
-            <ul>
-                <li>Easy access and accommodation for coats and shoes</li>
-                <li>Utility cupboard with washer and dryer</li>
-            </ul>
-
-            <h4>Outside</h4>
-
-            <ul>
-                <li>French doors leading out to large enclosed decked garden with raised bed of mature shrubs, outdoor furniture and a sea view!</li>
-                <li>Secure key pad entrance and allocated parking</li>
-                <li>Lockable surf shack for those precious boards</li>
-                <li>Outside communal shower</li>
-                <li>Complimentary wifi</li>
-                <li>Pet friendly</li>
-                <li>Situated opposite Newquay Golf Club and a 2 minute walk to Fistral Beach</li>
-            </ul>
-        </div>
-    </div>
-
-    <div id="explore" class="tw-w-full tw-py-4 tw-bg-white tw-border tw-border-t" >
-        <div class="tw-container">
+    <div id="explore" class="tw-w-full tw-py-4 tw-bg-white" >
+        <div class="tw-container tw-border-t-2">
             <div class="tw-w-full tw-flex-1"><h1 class="tw-m-0 tw-p-0 tw-py-8 tw-text-center">Let's Explore</h1></div>
 
             <div class="row">
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-6 col-sm-12 tw-mb-4 md:tw-mb-0">
                     <div class="card border">
                         <div class="card-header">
                             <h4 style="padding: 0px; margin: 0px; font-weight: 500;">Newquay</h4>
                         </div>
                         <div class="card-body highlight">
                             <ul>
-                                <li><a href="https://www.bbc.co.uk/weather/2641589" target="_blank">Local BBC Weather, Coast, Sea and Tidetimes</a></li>
+                                <li><a href="https://www.bbc.co.uk/weather/2641589" target="_blank">Local BBC Weather, Sea &amp; Tidetimes</a></li>
                                 <li><a href="https://www.newquayzoo.org.uk/" target="_blank">Newquay Zoo</a></li>
                                 <li><a href="https://www.fistralbeachsurfschool.co.uk/" target="_blank">Fistral Beach Surf Shop</a></li>
                                 <li><a href="https://rnli.org/find-my-nearest/lifeboat-stations/newquay-lifeboat-station" target="_blank">Newquay Lifeboat Station</a></li>
@@ -239,7 +187,7 @@
         </div>
     </div>
 
-    <div id="findus" class="tw-w-full tw-bg-blue-lighter">
+    <div id="findus" class="tw-w-full tw-bg-blue-lighter tw-hidden md:tw-block">
         <div class="tw-container tw-py-6 tw-pb-20">
             <div class="tw-w-full tw-py-4">
                 <div class="tw-w-full tw-flex-1"><h1 class="tw-m-0 tw-p-0 tw-py-8 tw-text-center">Where to Find Us</h1></div>
@@ -255,7 +203,7 @@
             </div>
 
             <div>
-                <img src="./assets/images/IMG_0058.jpeg" style="padding-left: 20px; padding-bottom: 10px;" align="right">
+                <img src="./assets/images/IMG_0058.jpeg" class="tw-w-32 lg:tw-w-64" style="padding-left: 20px; padding-bottom: 10px;" align="right">
                 <p class="text-justify">Within a few minutes walk: A small shop Fistral Stores and off-licence.  A convenient Spar shop just a short walk past the Golf Course leading on to Tower Road.  Several Hotels offering meals to non-residents.</p>
                 <p class="text-justify">Within a 10 minute walk: Sainsburys supermarket Alma Place Newquay TR7 1NF Open Monday-Saturday 7am-9pm and Sunday 10am-4pm.</p>
                 <p class="text-justify">Within a five minutes drive: Just off the A392 in between Newquay & Quintrell Downs is <a href="https://en-gb.facebook.com/TrevilleyFarmShop" target="_blank">Trevilley Farm Shop</a> where you can buy local produce.  Why not take a look at their website where you can order a produce box, of your choice, to be delivered to you, at the start of your holiday. Please contact Errol on 01637 872 310 or email to discuss.</p>
