@@ -30,7 +30,7 @@
     "dependencies": {
         "bootstrap": "^4.0.0",
         "bootstrap-sass": "^3.4.1",
-        "jquery": "^3.3.1",
+        "jquery": "^3.5.0",
         "portal-vue": "^1.5.1",
         "velocity-animate": "^1.5.2",
         "vue-agile": "^0.3.7",
